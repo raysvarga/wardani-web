@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-cover bg-center bg-[url('assets/img/wardani-bg.png')] lg:bg-[url('assets/img/wardani-bg-lg.png')]">
+    <div class="min-h-screen lg:flex lg:justify-center lg:items-center">
+      <div class="lg:flex lg:justify-center lg:h-[600px] lg:w-[1000px] lg:rounded-[20px] lg:items-center lg:gap-[100px] lg:bg-[#F09749] lg:border lg:border-[#2B1009]">
+        <div class="flex justify-center mt-[100px] lg:mt-0">
+          <img class="h-[291px] lg:h-[350px]" src="assets/img/wardani-logo.png" alt="Wardani Logo" />
+        </div>
+        <div class="lg:flex lg:flex-col">
+          <div class="text-center mt-[15px]">
+            <h3 class="text-[20px] lg:text-[30px] font-bold">Daftar Akun</h3>
+            <p class="text-[12px] lg:text-[16px] font-semibold">
+              Silahkan mengisi data diri Anda.
+            </p>
+          </div>
+          <div>
+            <form class="flex flex-col items-center mt-[20px] gap-[5px]">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Masukkan Nama Lengkap"
+                  class="p-[8px] w-[250px] lg:w-[400px] rounded-[25px] ps-[20px] border border-[#2B1009]"
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  placeholder="Masukkan Email"
+                  class="p-[8px] w-[250px] lg:w-[400px] rounded-[25px] ps-[20px] border border-[#2B1009]"
+                />
+              </div>
+              <div>
+                <input
+                  type="password"
+                  placeholder="Masukkan Password"
+                  class="p-[8px] w-[250px] lg:w-[400px] rounded-[25px] ps-[20px] border border-[#2B1009]"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Masukkan Alamat Lengkap"
+                  class="p-[8px] w-[250px] lg:w-[400px] rounded-[25px] ps-[20px] border border-[#2B1009]"
+                />
+              </div>
+              <div>
+                <input
+                  type="number"
+                  placeholder="Masukkan Nomor Telepon"
+                  class="p-[8px] w-[250px] lg:w-[400px] rounded-[25px] ps-[20px] border border-[#2B1009]"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="flex flex-col items-center mt-[20px] mb-[40px]">
+            <button class="h-[40px] w-[150px] bg-[#2B1009] text-white rounded-[20px]">
+              Daftar
+            </button>
+            <p class="text-[12px] lg:text-[16px] font-semibold">
+              Sudah punya akun? <a class="font-bold" href="login.html">MASUK</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
